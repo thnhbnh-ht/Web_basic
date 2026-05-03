@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-inline: 24px;
+}
 s*{
     font-family: "montserrat", sans-serif;
 }
@@ -14,10 +26,10 @@ s*{
     font-size: 30px;
     background-color: black;
     color: white;
-    margin: 12px;
     border-radius: 4px;    
     align-content: center;
     text-align: center; 
+    margin: 20px;
 }
 .mini-icon{
     display: block;
@@ -38,11 +50,16 @@ s*{
 .picture{
     margin-left: 100px;
     margin-top: 50px;
+    
+}
+h4 {
+    margin-bottom: 50px;
 }
 .text{
     display: inline-block;
-    margin-left: 50px;
-    padding: 80px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
 }
 .intro td{
     width: 130px;
@@ -52,6 +69,7 @@ s*{
     font-size: 40px;
 }
 .info{
+    margin-top: 40px;
     margin-left: 100px;
     font-size: 25px;
     text-align: left;
@@ -59,18 +77,22 @@ s*{
 h6 {
     border-bottom: 3px solid #ff4d4d;
     width: 100px; 
-    padding-bottom: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 .button{
     text-align: center;
+    margin: 50px;
 }
 .button1{
     display: inline-block;
-    width: 150px;
+    width: 200px;
     height: 50px;
-    font-size: 10px;
+    font-size: 15px;
+    color:#ff4d4d;
     border: 3px solid #ff4d4d;
     border-radius: 50px;
     text-align: center;
     align-content: center;
+    /* margin-top: 20px; */
 }
