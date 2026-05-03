@@ -10,9 +10,6 @@
     width: 100%;
     margin-inline: 24px;
 }
-s*{
-    font-family: "montserrat", sans-serif;
-}
 .header{
     height: 40px;
     display: block;
@@ -185,11 +182,10 @@ h6 {
     display: inline-block;
     width: 200px;
     height: 50px;
-    font-size: 15px;
+    font-size: 12px;
     color:#ff4d4d;
     border: 3px solid #ff4d4d;
     border-radius: 50px;
     text-align: center;
     align-content: center;
-    /* margin-top: 20px; */
 }
