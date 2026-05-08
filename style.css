@@ -8,13 +8,14 @@
 .container {
     max-width: 1280px;
     width: 100%;
-    margin-inline: 24px;
+    padding: 50px;
+    margin: auto;
 }
 .header{
-    height: 40px;
-    display: block;
-    margin: 100px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
 }
 .J-icon{
     display: inline-block; 
@@ -26,7 +27,7 @@
     border-radius: 4px;    
     align-content: center;
     text-align: center; 
-    margin: 20px;
+    margin-right: 20px;
 }
 .mini-icon{
     display: block;
@@ -43,39 +44,43 @@
     text-align: center;
     align-content: center;
     border-radius: 100%; 
+    justify-content: flex-end;
 }
 .picture{
-    margin-left: 100px;
-    margin-top: 50px;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 h4 {
     margin-bottom: 50px;
 }
 .text{
     display: inline-block;
-    margin-left: 40px;
-    margin-bottom: 50px;
-    padding: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
-.intro td{
-    width: 130px;
+.intro{
+    display: flex;
 }
-.number td{
+.itemm{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.number{
     color: #ff4d4d;
     font-size: 40px;
+    font-weight: 600;
 }
-.info{
+.item{
     margin-top: 40px;
-    margin-left: 100px;
-    font-size: 25px;
     text-align: left;
 }
-h6 {
-    border-bottom: 3px solid #ff4d4d;
-    width: 100px; 
-    padding-bottom: 5px;
+.item h3 {
+    display: inline-block;
     margin-bottom: 20px;
+    border-bottom: 3px solid #ff4d4d;
+    object-fit: cover;
+    justify-content: space-around;
 }
 .button{
     text-align: center;
@@ -84,108 +89,34 @@ h6 {
 .button1{
     display: inline-block;
     width: 200px;
-    height: 50px;
-    font-size: 12px;
-    color:#ff4d4d;
-    border: 3px solid #ff4d4d;
-    border-radius: 50px;
-    text-align: center;
-    align-content: center;
-}
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-* {
-    padding: 0;
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-}
-
-.container {
-    max-width: 1280px;
-    width: 100%;
-    margin-inline: 24px;
-}
-s*{
-    font-family: "montserrat", sans-serif;
-}
-.header{
     height: 40px;
-    display: block;
-    margin: 100px;
-
-}
-.J-icon{
-    display: inline-block; 
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    background-color: black;
-    color: white;
-    border-radius: 4px;    
-    align-content: center;
-    text-align: center; 
-    margin: 20px;
-}
-.mini-icon{
-    display: block;
-    text-align: right;
-    margin-top: -50px;
-}
-.mini-icon i{
-    font-size: 15px;
-    width: 30px;
-    height: 30px;
-    color: white;
-    background: 30px;
-    background-color: #ff4d4d;
-    text-align: center;
-    align-content: center;
-    border-radius: 100%; 
-}
-.picture{
-    margin-left: 100px;
-    margin-top: 50px;
-    
-}
-h4 {
-    margin-bottom: 50px;
-}
-.text{
-    display: inline-block;
-    margin-left: 40px;
-    margin-bottom: 50px;
-    padding: 20px;
-}
-.intro td{
-    width: 130px;
-}
-.number td{
-    color: #ff4d4d;
-    font-size: 40px;
-}
-.info{
-    margin-top: 40px;
-    margin-left: 100px;
-    font-size: 25px;
-    text-align: left;
-}
-h6 {
-    border-bottom: 3px solid #ff4d4d;
-    width: 100px; 
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-}
-.button{
-    text-align: center;
-    margin: 50px;
-}
-.button1{
-    display: inline-block;
-    width: 200px;
-    height: 50px;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 500;
     color:#ff4d4d;
-    border: 3px solid #ff4d4d;
+    border: 2px solid #ff4d4d;
     border-radius: 50px;
     text-align: center;
     align-content: center;
 }
+.button2{
+    display: inline-block;
+    border: 1px solid rgb(237, 231, 231);
+    border-radius: 100px;
+    text-align: center;
+    align-content: center;
+    margin: 5px;
+    padding: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.info li{
+    padding-left: 10px;
+    margin: 15px;
+}
+.abc{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
